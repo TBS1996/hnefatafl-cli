@@ -5,5 +5,7 @@ Hnefatafl is a game that was played in scandinavia during the viking age, it was
 
 
 
-https://user-images.githubusercontent.com/56874491/199950626-773b8be2-bd72-4aa0-b414-0e44a8357cd2.mp4
+
+
+https://user-images.githubusercontent.com/56874491/199969751-fe580083-f667-4bd4-93e1-93656123dff1.mp4
 
