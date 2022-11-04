@@ -78,7 +78,7 @@ class Square:
 			tile_piece = self.board.get_piece(tile)
 			chess_not = self.board.matrix_to_chess_notation(tile)
 			if tile_piece is not Piece.none:
-				print(f"ahh shit theres a {tile_piece.name} blocking your path at {chess_not}!")
+				print(f"invalid move: theres a {tile_piece.name} blocking your path at {chess_not}!")
 				return True
 		return False
 
@@ -123,7 +123,7 @@ class Square:
 			print("Choose another destination than your current one")
 			return False
 		elif dest_square.square is SquareType.throne and self.piece is not Piece.king:
-			print("dont you dare!")
+			print("Only the king can visit the throne")
 			return False
 		elif self.collision_detected(dest_square.pos):
 			return False
